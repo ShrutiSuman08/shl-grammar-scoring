@@ -1,0 +1,37 @@
+# Competition data and generated artifacts must stay private.
+data/
+Dataset_Final/
+outputs/
+checkpoints/
+models/
+*.wav
+*.mp3
+*.flac
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.safetensors
+*.bin
+# Allow only aggregate reports deliberately checked for publication.
+!reports/baseline_metrics.csv
+# Credentials and temporary runtime files.
+.env
+.env.*
+kaggle.json
+*token*
+*secret*
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

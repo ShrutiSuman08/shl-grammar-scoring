@@ -1,0 +1,13 @@
+# Baseline dependencies. Record exact tested versions before final handoff.
+# PyAV version is confirmed from the working Kaggle session.
+faster-whisper
+av==18.1.0
+torch
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+joblib
+ipython
+# Add sentence-transformers when the embedding experiment is validated.
